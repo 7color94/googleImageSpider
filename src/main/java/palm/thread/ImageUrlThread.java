@@ -95,7 +95,7 @@ public class ImageUrlThread implements Runnable {
 //        for (String t: ss) {
 //            System.out.println(t);
 //        }
-        String s = "https:\\/\\/encrypted-tbn0.gstatic.com\\/images?q=tbn:ANd9GcRG5Wy3FWF0qAS0oCOmlFD8834aaz48yjwOKL5V5MFkUqrLAfoZXg";
+        String s = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtMH3MNawMMkcY7QHw0lTpMen8r8r1GyHRqLPspr5llJlSH9fc";
         String ss = "zhuyao";
         System.out.println(s.hashCode());
         System.out.println(ss.hashCode());

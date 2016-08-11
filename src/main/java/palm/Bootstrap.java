@@ -1,3 +1,5 @@
+package palm;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import palm.entity.AgeFace;
@@ -13,7 +15,7 @@ import java.util.concurrent.Executors;
 public class Bootstrap {
 
     private static Logger logger = LogManager.getLogger(Bootstrap.class.getSimpleName());
-    public ExecutorService exec = Executors.newFixedThreadPool(10);
+    public ExecutorService exec = Executors.newFixedThreadPool(30);
 
     public static void main(String[] args) throws IOException {
 
